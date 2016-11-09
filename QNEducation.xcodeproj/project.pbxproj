@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D12ACF1DD16C2E0038BAA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D12ACE1DD16C2E0038BAA5 /* main.m */; };
+		18D12AD21DD16C2E0038BAA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D12AD11DD16C2E0038BAA5 /* AppDelegate.m */; };
+		18D12AD81DD16C2E0038BAA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D12AD61DD16C2E0038BAA5 /* Main.storyboard */; };
+		18D12ADB1DD16C2E0038BAA5 /* QNEducation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D12AD91DD16C2E0038BAA5 /* QNEducation.xcdatamodeld */; };
+		18D12ADD1DD16C2E0038BAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D12ADC1DD16C2E0038BAA5 /* Assets.xcassets */; };
+		18D12AE01DD16C2E0038BAA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D12ADE1DD16C2E0038BAA5 /* LaunchScreen.storyboard */; };
+		18D12AEC1DD16D7F0038BAA5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D12AEB1DD16D7F0038BAA5 /* Login.storyboard */; };
+		18D12AF41DD1741A0038BAA5 /* QNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D12AF31DD1741A0038BAA5 /* QNBaseViewController.m */; };
+		18D12AF71DD174380038BAA5 /* QNBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D12AF61DD174380038BAA5 /* QNBaseNavigationController.m */; };
+		18D12AFA1DD17B870038BAA5 /* QNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D12AF91DD17B870038BAA5 /* QNLoginViewController.m */; };
+		18D12AFC1DD180AE0038BAA5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D12AFB1DD180AE0038BAA5 /* 1.jpg */; };
+		18D1CBB01DD1C76000FC724F /* QNMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1CBAF1DD1C76000FC724F /* QNMyViewController.m */; };
+		18D1CBB31DD1C77A00FC724F /* QNSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1CBB21DD1C77A00FC724F /* QNSchoolViewController.m */; };
+		18D1CBB61DD1C79400FC724F /* QNMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1CBB51DD1C79400FC724F /* QNMessageViewController.m */; };
+		18D1CBB91DD1C7A600FC724F /* QNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1CBB81DD1C7A600FC724F /* QNHomeViewController.m */; };
+		18D1CBBC1DD1C7E300FC724F /* QNBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1CBBB1DD1C7E300FC724F /* QNBaseTableViewController.m */; };
+		18D1CBBF1DD1C94E00FC724F /* QNBaseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1CBBE1DD1C94E00FC724F /* QNBaseTabbarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D12ACA1DD16C2E0038BAA5 /* QNEducation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QNEducation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D12ACE1DD16C2E0038BAA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D12AD01DD16C2E0038BAA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D12AD11DD16C2E0038BAA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D12AD71DD16C2E0038BAA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D12ADA1DD16C2E0038BAA5 /* QNEducation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QNEducation.xcdatamodel; sourceTree = "<group>"; };
+		18D12ADC1DD16C2E0038BAA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D12ADF1DD16C2E0038BAA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D12AE11DD16C2E0038BAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D12AEB1DD16D7F0038BAA5 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		18D12AF21DD1741A0038BAA5 /* QNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNBaseViewController.h; sourceTree = "<group>"; };
+		18D12AF31DD1741A0038BAA5 /* QNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNBaseViewController.m; sourceTree = "<group>"; };
+		18D12AF51DD174380038BAA5 /* QNBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNBaseNavigationController.h; sourceTree = "<group>"; };
+		18D12AF61DD174380038BAA5 /* QNBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNBaseNavigationController.m; sourceTree = "<group>"; };
+		18D12AF81DD17B870038BAA5 /* QNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNLoginViewController.h; sourceTree = "<group>"; };
+		18D12AF91DD17B870038BAA5 /* QNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNLoginViewController.m; sourceTree = "<group>"; };
+		18D12AFB1DD180AE0038BAA5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		18D1CBAE1DD1C76000FC724F /* QNMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNMyViewController.h; sourceTree = "<group>"; };
+		18D1CBAF1DD1C76000FC724F /* QNMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNMyViewController.m; sourceTree = "<group>"; };
+		18D1CBB11DD1C77A00FC724F /* QNSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNSchoolViewController.h; sourceTree = "<group>"; };
+		18D1CBB21DD1C77A00FC724F /* QNSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNSchoolViewController.m; sourceTree = "<group>"; };
+		18D1CBB41DD1C79400FC724F /* QNMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNMessageViewController.h; sourceTree = "<group>"; };
+		18D1CBB51DD1C79400FC724F /* QNMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNMessageViewController.m; sourceTree = "<group>"; };
+		18D1CBB71DD1C7A600FC724F /* QNHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNHomeViewController.h; sourceTree = "<group>"; };
+		18D1CBB81DD1C7A600FC724F /* QNHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNHomeViewController.m; sourceTree = "<group>"; };
+		18D1CBBA1DD1C7E300FC724F /* QNBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNBaseTableViewController.h; sourceTree = "<group>"; };
+		18D1CBBB1DD1C7E300FC724F /* QNBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNBaseTableViewController.m; sourceTree = "<group>"; };
+		18D1CBBD1DD1C94E00FC724F /* QNBaseTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNBaseTabbarController.h; sourceTree = "<group>"; };
+		18D1CBBE1DD1C94E00FC724F /* QNBaseTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNBaseTabbarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D12AC71DD16C2E0038BAA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D12AC11DD16C2E0038BAA5 = {
+			isa = PBXGroup;
+			children = (
+				18D12ACC1DD16C2E0038BAA5 /* QNEducation */,
+				18D12ACB1DD16C2E0038BAA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D12ACB1DD16C2E0038BAA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D12ACA1DD16C2E0038BAA5 /* QNEducation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D12ACC1DD16C2E0038BAA5 /* QNEducation */ = {
+			isa = PBXGroup;
+			children = (
+				18D12AE91DD16D3D0038BAA5 /* cocoa */,
+				18D12AEA1DD16D3D0038BAA5 /* src */,
+				18D12AE71DD16D3D0038BAA5 /* unity */,
+				18D12AE81DD16D3D0038BAA5 /* viewController */,
+				18D12ACD1DD16C2E0038BAA5 /* Supporting Files */,
+			);
+			path = QNEducation;
+			sourceTree = "<group>";
+		};
+		18D12ACD1DD16C2E0038BAA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D12AFB1DD180AE0038BAA5 /* 1.jpg */,
+				18D12AD01DD16C2E0038BAA5 /* AppDelegate.h */,
+				18D12AD11DD16C2E0038BAA5 /* AppDelegate.m */,
+				18D12AD61DD16C2E0038BAA5 /* Main.storyboard */,
+				18D12ADC1DD16C2E0038BAA5 /* Assets.xcassets */,
+				18D12ADE1DD16C2E0038BAA5 /* LaunchScreen.storyboard */,
+				18D12AE11DD16C2E0038BAA5 /* Info.plist */,
+				18D12AD91DD16C2E0038BAA5 /* QNEducation.xcdatamodeld */,
+				18D12ACE1DD16C2E0038BAA5 /* main.m */,
+				18D12AEB1DD16D7F0038BAA5 /* Login.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D12AE71DD16D3D0038BAA5 /* unity */ = {
+			isa = PBXGroup;
+			children = (
+				18D12AF21DD1741A0038BAA5 /* QNBaseViewController.h */,
+				18D12AF31DD1741A0038BAA5 /* QNBaseViewController.m */,
+				18D12AF51DD174380038BAA5 /* QNBaseNavigationController.h */,
+				18D12AF61DD174380038BAA5 /* QNBaseNavigationController.m */,
+				18D1CBBA1DD1C7E300FC724F /* QNBaseTableViewController.h */,
+				18D1CBBB1DD1C7E300FC724F /* QNBaseTableViewController.m */,
+				18D1CBBD1DD1C94E00FC724F /* QNBaseTabbarController.h */,
+				18D1CBBE1DD1C94E00FC724F /* QNBaseTabbarController.m */,
+			);
+			path = unity;
+			sourceTree = SOURCE_ROOT;
+		};
+		18D12AE81DD16D3D0038BAA5 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				18D12AF11DD173CF0038BAA5 /* my */,
+				18D12AF01DD173C50038BAA5 /* school */,
+				18D12AEF1DD173BB0038BAA5 /* message */,
+				18D12AEE1DD173860038BAA5 /* home */,
+				18D12AED1DD171950038BAA5 /* login */,
+			);
+			path = viewController;
+			sourceTree = SOURCE_ROOT;
+		};
+		18D12AE91DD16D3D0038BAA5 /* cocoa */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cocoa;
+			sourceTree = SOURCE_ROOT;
+		};
+		18D12AEA1DD16D3D0038BAA5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		18D12AED1DD171950038BAA5 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				18D12AF81DD17B870038BAA5 /* QNLoginViewController.h */,
+				18D12AF91DD17B870038BAA5 /* QNLoginViewController.m */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		18D12AEE1DD173860038BAA5 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				18D1CBB71DD1C7A600FC724F /* QNHomeViewController.h */,
+				18D1CBB81DD1C7A600FC724F /* QNHomeViewController.m */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		18D12AEF1DD173BB0038BAA5 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				18D1CBB41DD1C79400FC724F /* QNMessageViewController.h */,
+				18D1CBB51DD1C79400FC724F /* QNMessageViewController.m */,
+			);
+			name = message;
+			sourceTree = "<group>";
+		};
+		18D12AF01DD173C50038BAA5 /* school */ = {
+			isa = PBXGroup;
+			children = (
+				18D1CBB11DD1C77A00FC724F /* QNSchoolViewController.h */,
+				18D1CBB21DD1C77A00FC724F /* QNSchoolViewController.m */,
+			);
+			name = school;
+			sourceTree = "<group>";
+		};
+		18D12AF11DD173CF0038BAA5 /* my */ = {
+			isa = PBXGroup;
+			children = (
+				18D1CBAE1DD1C76000FC724F /* QNMyViewController.h */,
+				18D1CBAF1DD1C76000FC724F /* QNMyViewController.m */,
+			);
+			name = my;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D12AC91DD16C2E0038BAA5 /* QNEducation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D12AE41DD16C2E0038BAA5 /* Build configuration list for PBXNativeTarget "QNEducation" */;
+			buildPhases = (
+				18D12AC61DD16C2E0038BAA5 /* Sources */,
+				18D12AC71DD16C2E0038BAA5 /* Frameworks */,
+				18D12AC81DD16C2E0038BAA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QNEducation;
+			productName = QNEducation;
+			productReference = 18D12ACA1DD16C2E0038BAA5 /* QNEducation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D12AC21DD16C2E0038BAA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "启能教育";
+				TargetAttributes = {
+					18D12AC91DD16C2E0038BAA5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18D12AC51DD16C2E0038BAA5 /* Build configuration list for PBXProject "QNEducation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D12AC11DD16C2E0038BAA5;
+			productRefGroup = 18D12ACB1DD16C2E0038BAA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D12AC91DD16C2E0038BAA5 /* QNEducation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D12AC81DD16C2E0038BAA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D12AEC1DD16D7F0038BAA5 /* Login.storyboard in Resources */,
+				18D12AE01DD16C2E0038BAA5 /* LaunchScreen.storyboard in Resources */,
+				18D12ADD1DD16C2E0038BAA5 /* Assets.xcassets in Resources */,
+				18D12AD81DD16C2E0038BAA5 /* Main.storyboard in Resources */,
+				18D12AFC1DD180AE0038BAA5 /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D12AC61DD16C2E0038BAA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D1CBB91DD1C7A600FC724F /* QNHomeViewController.m in Sources */,
+				18D1CBB01DD1C76000FC724F /* QNMyViewController.m in Sources */,
+				18D1CBB31DD1C77A00FC724F /* QNSchoolViewController.m in Sources */,
+				18D1CBB61DD1C79400FC724F /* QNMessageViewController.m in Sources */,
+				18D12AD21DD16C2E0038BAA5 /* AppDelegate.m in Sources */,
+				18D12AFA1DD17B870038BAA5 /* QNLoginViewController.m in Sources */,
+				18D12ACF1DD16C2E0038BAA5 /* main.m in Sources */,
+				18D12AF41DD1741A0038BAA5 /* QNBaseViewController.m in Sources */,
+				18D12AF71DD174380038BAA5 /* QNBaseNavigationController.m in Sources */,
+				18D1CBBF1DD1C94E00FC724F /* QNBaseTabbarController.m in Sources */,
+				18D1CBBC1DD1C7E300FC724F /* QNBaseTableViewController.m in Sources */,
+				18D12ADB1DD16C2E0038BAA5 /* QNEducation.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D12AD61DD16C2E0038BAA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D12AD71DD16C2E0038BAA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D12ADE1DD16C2E0038BAA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D12ADF1DD16C2E0038BAA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D12AE21DD16C2E0038BAA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18D12AE31DD16C2E0038BAA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D12AE51DD16C2E0038BAA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QNEducation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qnjy.QNEducation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18D12AE61DD16C2E0038BAA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QNEducation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qnjy.QNEducation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D12AC51DD16C2E0038BAA5 /* Build configuration list for PBXProject "QNEducation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D12AE21DD16C2E0038BAA5 /* Debug */,
+				18D12AE31DD16C2E0038BAA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D12AE41DD16C2E0038BAA5 /* Build configuration list for PBXNativeTarget "QNEducation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D12AE51DD16C2E0038BAA5 /* Debug */,
+				18D12AE61DD16C2E0038BAA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18D12AD91DD16C2E0038BAA5 /* QNEducation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18D12ADA1DD16C2E0038BAA5 /* QNEducation.xcdatamodel */,
+			);
+			currentVersion = 18D12ADA1DD16C2E0038BAA5 /* QNEducation.xcdatamodel */;
+			path = QNEducation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18D12AC21DD16C2E0038BAA5 /* Project object */;
+}
